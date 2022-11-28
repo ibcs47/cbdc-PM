@@ -1,0 +1,112 @@
+2022-11-21 16:32:50.826752 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-21 16:32:54.336204 res nonce {"response":"13"} 
+2022-11-21 16:32:56.377155 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-21 16:33:00.106079 res nonce {"response":"13"} 
+2022-11-21 16:34:01.175097 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-21 16:34:04.466054 res nonce {"response":"13"} 
+2022-11-21 16:34:11.928493 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-21 16:34:15.129301 res nonce {"response":"13"} 
+2022-11-21 16:35:12.050034 req connectivityTest {} 
+2022-11-21 16:35:15.310948 res connectivityTest {"response":"ping done"} 
+2022-11-21 16:35:40.607956 req balance {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-21 16:35:43.802905 res balance {"response":"950"} 
+2022-11-21 16:46:03.682365 req transferAsset {'amount': 0, 'from': 'string', 'nonce': 0, 'pocket': 'string', 'r': 'string', 's': 'string', 'to': 'string', 'v': 0} 
+2022-11-21 16:46:03.781355 res transferAsset {"timestamp":"2022-11-21T15:46:04.998Z","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/transferAsset"} 
+2022-11-21 16:47:35.882405 req mintUnits {'address': 'string', 'amount': 0, 'nonce': 0, 'r': 'string', 's': 'string', 'v': 0} 
+2022-11-21 16:47:35.956394 res mintUnits {"timestamp":"2022-11-21T15:47:37.171Z","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/mintUnits"} 
+2022-11-21 16:48:57.580432 req transferAsset {'address': 'string', 'lockedUserAmount': 0, 'requestedAmount': 0, 'verifierDocUri': 'string'} 
+2022-11-21 16:48:57.678426 res transferAsset {"timestamp":"2022-11-21T15:48:58.880Z","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/transferAsset"} 
+2022-11-21 16:49:10.425812 req /applyForGreenCbdc {'address': 'string', 'lockedUserAmount': 0, 'requestedAmount': 0, 'verifierDocUri': 'string'} 
+2022-11-21 16:49:10.487239 res /applyForGreenCbdc {"timestamp":"2022-11-21T15:49:11.711Z","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"//applyForGreenCbdc"} 
+2022-11-21 16:49:32.496533 req applyForGreenCbdc {'address': 'string', 'lockedUserAmount': 0, 'requestedAmount': 0, 'verifierDocUri': 'string'} 
+2022-11-21 16:49:32.556088 res applyForGreenCbdc {"timestamp":"2022-11-21T15:49:33.779Z","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/applyForGreenCbdc"} 
+2022-11-21 16:50:28.290041 req unlockUnits {'address': 'string', 'amount': 0} 
+2022-11-21 16:50:28.353039 res unlockUnits {"timestamp":"2022-11-21T15:50:29.576Z","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/unlockUnits"} 
+2022-11-21 16:51:45.421811 req transferAsset {'amount': 0, 'from': 'string', 'nonce': 0, 'pocket': 'string', 'r': 'string', 's': 'string', 'to': 'string', 'v': 0} 
+2022-11-21 16:51:45.506935 res transferAsset {"timestamp":"2022-11-21T15:51:46.728Z","status":415,"error":"Unsupported Media Type","message":"Content type 'application/x-www-form-urlencoded' not supported","path":"/transferAsset"} 
+2022-11-21 16:51:52.705816 req applyForGreenCbdc {'address': 'string', 'lockedUserAmount': 0, 'requestedAmount': 0, 'verifierDocUri': 'string'} 
+2022-11-21 16:51:52.775926 res applyForGreenCbdc {"timestamp":"2022-11-21T15:51:54.000Z","status":415,"error":"Unsupported Media Type","message":"Content type 'application/x-www-form-urlencoded' not supported","path":"/applyForGreenCbdc"} 
+2022-11-21 16:51:57.297280 req unlockUnits {'address': 'string', 'amount': 0} 
+2022-11-21 16:51:57.357850 res unlockUnits {"timestamp":"2022-11-21T15:51:58.582Z","status":405,"error":"Method Not Allowed","message":"Request method 'GET' not supported","path":"/unlockUnits"} 
+2022-11-21 16:52:00.969981 req unlockUnits {'address': 'string', 'amount': 0} 
+2022-11-21 16:52:01.013640 res unlockUnits {"timestamp":"2022-11-21T15:52:02.239Z","status":415,"error":"Unsupported Media Type","message":"Content type 'application/x-www-form-urlencoded' not supported","path":"/unlockUnits"} 
+2022-11-21 16:52:04.608783 req unlockUnits {'address': 'string', 'amount': 0} 
+2022-11-21 16:52:04.664782 res unlockUnits {"timestamp":"2022-11-21T15:52:05.890Z","status":415,"error":"Unsupported Media Type","message":"Content type 'application/x-www-form-urlencoded' not supported","path":"/unlockUnits"} 
+2022-11-21 16:52:43.848822 req approveGreenCbdc {'address': 'string', 'deadlineInDays': 0, 'totalPayout': 0} 
+2022-11-21 16:52:43.907809 res approveGreenCbdc {"timestamp":"2022-11-21T15:52:45.134Z","status":415,"error":"Unsupported Media Type","message":"Content type 'application/x-www-form-urlencoded' not supported","path":"/approveGreenCbdc"} 
+2022-11-21 16:55:29.601447 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-21 16:55:32.953680 res nonce {"response":"13"} 
+2022-11-21 16:57:13.171726 req transferAsset {'amount': 5, 'from': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'nonce': 13, 'pocket': 'default', 'r': '/kLVe3pgDQ+WzdtjccrxjyRbIuNmARG9xdMlgo3qIXg=', 's': 'Zdgji2JUKsKVoruFBAPN4Ir9TDby9vp+21kgDx0qgQA=', 'to': '0xa48c6cc002b627954e1862620544e5613874676b', 'v': 27} 
+2022-11-21 16:57:13.247946 res transferAsset {"timestamp":"2022-11-21T15:57:14.472Z","status":415,"error":"Unsupported Media Type","message":"Content type 'application/x-www-form-urlencoded' not supported","path":"/transferAsset"} 
+2022-11-21 16:57:32.965400 req transferAsset {'amount': 5, 'from': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'nonce': 13, 'pocket': 'default', 'r': '/kLVe3pgDQ+WzdtjccrxjyRbIuNmARG9xdMlgo3qIXg=', 's': 'Zdgji2JUKsKVoruFBAPN4Ir9TDby9vp+21kgDx0qgQA=', 'to': '0xa48c6cc002b627954e1862620544e5613874676b', 'v': 27} 
+2022-11-21 16:57:33.045398 res transferAsset {"timestamp":"2022-11-21T15:57:34.271Z","status":415,"error":"Unsupported Media Type","message":"Content type 'application/x-www-form-urlencoded' not supported","path":"/transferAsset"} 
+2022-11-21 16:59:11.153904 req transferAsset {'amount': 5, 'from': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'nonce': 13, 'pocket': 'default', 'r': '/kLVe3pgDQ+WzdtjccrxjyRbIuNmARG9xdMlgo3qIXg=', 's': 'Zdgji2JUKsKVoruFBAPN4Ir9TDby9vp+21kgDx0qgQA=', 'to': '0xa48c6cc002b627954e1862620544e5613874676b', 'v': 27} 
+2022-11-21 16:59:11.232116 res transferAsset {"timestamp":"2022-11-21T15:59:12.454Z","status":415,"error":"Unsupported Media Type","message":"Content type '' not supported","path":"/transferAsset"} 
+2022-11-21 17:18:07.299708 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-21 17:18:10.586876 res nonce {"response":"14"} 
+2022-11-21 17:18:20.627641 req transferAsset {'amount': 5, 'from': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'nonce': 14, 'pocket': 'default', 'r': '5/SIgBcPRPnKmeYoHalQWInnHVBF1OrbPDwbzdJZz84=', 's': 'Em6+SIRmtB2E2MIUTlSQV6p/Qdw8RqW9GTcGrREOZ10=', 'to': '0xa48c6cc002b627954e1862620544e5613874676b', 'v': 27} 
+2022-11-21 17:18:20.698572 res transferAsset {"timestamp":"2022-11-21T16:18:21.931Z","status":415,"error":"Unsupported Media Type","message":"Content type '' not supported","path":"/transferAsset"} 
+2022-11-25 13:34:25.927411 req transferAsset {'amount': 5, 'from': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'nonce': 14, 'pocket': 'default', 'r': '5/SIgBcPRPnKmeYoHalQWInnHVBF1OrbPDwbzdJZz84=', 's': 'Em6+SIRmtB2E2MIUTlSQV6p/Qdw8RqW9GTcGrREOZ10=', 'to': '0xa48c6cc002b627954e1862620544e5613874676b', 'v': 27} 
+2022-11-25 13:34:26.593351 res transferAsset {"timestamp":"2022-11-25T12:34:27.571Z","status":415,"error":"Unsupported Media Type","message":"Content type '' not supported","path":"/transferAsset"} 
+2022-11-26 12:10:59.733001 req connectivityTest {} 
+2022-11-26 12:11:03.273558 res connectivityTest {"response":"ping done"} 
+2022-11-26 12:11:06.412236 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-26 12:11:09.636604 res nonce {"response":"14"} 
+2022-11-26 12:11:21.115030 req balance {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-26 12:11:24.349033 res balance {"response":"945"} 
+2022-11-26 12:11:38.665034 req transferAsset {'amount': 5, 'from': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'nonce': 14, 'pocket': 'default', 'r': '5/SIgBcPRPnKmeYoHalQWInnHVBF1OrbPDwbzdJZz84=', 's': 'Em6+SIRmtB2E2MIUTlSQV6p/Qdw8RqW9GTcGrREOZ10=', 'to': '0xa48c6cc002b627954e1862620544e5613874676b', 'v': 27} 
+2022-11-26 12:11:38.782032 res transferAsset {"timestamp":"2022-11-26T11:11:39.563Z","status":415,"error":"Unsupported Media Type","message":"Content type '' not supported","path":"/transferAsset"} 
+2022-11-26 12:17:19.775447 req balance {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-26 12:17:23.017478 res balance {"response":"940"} 
+2022-11-26 12:19:36.028540 req transferAsset {'amount': 5, 'from': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'nonce': 14, 'pocket': 'default', 'r': '5/SIgBcPRPnKmeYoHalQWInnHVBF1OrbPDwbzdJZz84=', 's': 'Em6+SIRmtB2E2MIUTlSQV6p/Qdw8RqW9GTcGrREOZ10=', 'to': '0xa48c6cc002b627954e1862620544e5613874676b', 'v': 27} 
+2022-11-26 12:19:39.302136 res transferAsset {"response":"org.hyperledger.fabric.gateway.ContractException: No valid proposal responses received. 1 peer error responses: error in simulation: transaction returned with failure: Error: Transaction nonce already seen"} 
+2022-11-26 14:26:27.441015 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-26 14:26:30.909190 res nonce {"response":"15"} 
+2022-11-26 14:27:54.455406 req transferAsset {'amount': 5, 'from': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'nonce': 15, 'pocket': 'default', 'r': 'YDjWs8RmkXR1ziK5WBNTtM7Anz5KLaM/dl4OOd4Zh/c=', 's': 'ZmG4680+7/SUsKytT6/AGATtTVGcXFAObC9DS0xz8cM=', 'to': '0xa48c6cc002b627954e1862620544e5613874676b', 'v': 28} 
+2022-11-26 14:27:57.992450 res transferAsset {"response":"succesfull transfer"} 
+2022-11-26 14:28:51.853112 req applyForGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'lockedUserAmount': 5, 'requestedAmount': 5, 'verifierDocUri': 'string'} 
+2022-11-26 14:28:51.967812 res applyForGreenCbdc  
+2022-11-26 14:31:12.831397 req applyForGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'lockedUserAmount': 5, 'requestedAmount': 5, 'verifierDocUri': 'string'} 
+2022-11-26 14:31:12.913211 res applyForGreenCbdc  
+2022-11-26 14:31:23.325652 req applyForGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'lockedUserAmount': 5, 'requestedAmount': 5, 'verifierDocUri': 'string'} 
+2022-11-26 14:31:23.420860 res applyForGreenCbdc  
+2022-11-26 14:32:22.656913 req approveGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'deadlineInDays': 3, 'totalPayout': 10} 
+2022-11-26 14:32:22.781490 res approveGreenCbdc  
+2022-11-26 14:32:38.879491 req approveGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'deadlineInDays': 3, 'totalPayout': 10} 
+2022-11-26 14:32:38.939234 res approveGreenCbdc  
+2022-11-26 14:43:39.888861 req connectivityTest {} 
+2022-11-26 14:43:43.283575 res connectivityTest {"response":"ping done"} 
+2022-11-26 17:40:48.382981 req applyForGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'lockedUserAmount': 5, 'requestedAmount': 5, 'verifierDocUri': 'string'} 
+2022-11-26 17:40:51.956361 res applyForGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-26 17:40:58.781268 req applyForGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'lockedUserAmount': 5, 'requestedAmount': 5, 'verifierDocUri': 'string'} 
+2022-11-26 17:41:02.174073 res applyForGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-26 17:41:14.734494 req unlockUnits {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'amount': 5} 
+2022-11-26 17:41:19.322735 res unlockUnits {"response":"succesfull unlockUnit"} 
+2022-11-26 17:41:22.397161 req unlockUnits {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'amount': 5} 
+2022-11-26 17:41:25.835200 res unlockUnits {"response":"succesfull unlockUnit"} 
+2022-11-26 17:41:28.404599 req unlockUnits {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'amount': 5} 
+2022-11-26 17:41:31.769876 res unlockUnits {"response":"succesfull unlockUnit"} 
+2022-11-26 17:41:37.237205 req unlockUnits {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'amount': 5} 
+2022-11-26 17:41:40.618481 res unlockUnits {"response":"succesfull unlockUnit"} 
+2022-11-26 17:41:43.118183 req unlockUnits {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'amount': 5} 
+2022-11-26 17:41:46.540047 res unlockUnits {"response":"succesfull unlockUnit"} 
+2022-11-26 19:46:04.358365 req applyForGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'lockedUserAmount': 5, 'requestedAmount': 5, 'verifierDocUri': 'string'} 
+2022-11-26 19:46:08.051240 res applyForGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-26 19:46:11.046774 req approveGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'deadlineInDays': 3, 'totalPayout': 10} 
+2022-11-26 19:46:14.486677 res approveGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-26 19:46:23.611307 req approveGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'deadlineInDays': 3, 'totalPayout': 10} 
+2022-11-26 19:46:26.847401 res approveGreenCbdc {"response":"org.hyperledger.fabric.gateway.ContractException: No valid proposal responses received. 1 peer error responses: error in simulation: transaction returned with failure: Error: Error: [0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b] Insufficient funds for approve request"} 
+2022-11-26 19:46:31.474130 req applyForGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'lockedUserAmount': 5, 'requestedAmount': 5, 'verifierDocUri': 'string'} 
+2022-11-26 19:46:34.905134 res applyForGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-26 19:46:36.570590 req approveGreenCbdc {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'deadlineInDays': 3, 'totalPayout': 10} 
+2022-11-26 19:46:40.648614 res approveGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-26 19:46:44.707611 req unlockUnits {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b', 'amount': 5} 
+2022-11-26 19:46:48.121390 res unlockUnits {"response":"succesfull unlockUnit"} 
+2022-11-27 09:06:55.171203 req connectivityTest {} 
+2022-11-27 09:06:58.664295 res connectivityTest {"response":"ping done"} 
+2022-11-27 09:07:01.129822 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-27 09:07:04.374822 res nonce {"response":"16"} 
+2022-11-27 16:11:15.525101 req nonce {'address': '0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b'} 
+2022-11-27 16:11:19.113843 res nonce {"response":"16"} 
+2022-11-27 16:14:22.244829 req nonce {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-27 16:14:26.098443 res nonce {"response":"16"} 

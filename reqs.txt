@@ -1,0 +1,46 @@
+2022-11-28 11:55:18.404656 req 1 applyForGreenCbdc {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "lockedUserAmount": 5, "requestedAmount": 5, "verifierDocUri": "string"} 
+2022-11-28 11:55:22.012316 res 1 applyForGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-28 11:55:30.930527 req 1 approveGreenCbdc {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "deadlineInDays": 3, "totalPayout": 10} 
+2022-11-28 11:55:34.285546 res 1 approveGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-28 11:55:48.515879 req 1 nonce {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 11:55:51.785504 res 1 nonce {"response":"17"} 
+2022-11-28 11:56:39.709996 req 1 transferAsset {"amount": 10, "from": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "nonce": 17, "pocket": "green", "r": "VEJdXvHir4GQgd5+YySZxHQsLgV/G7uZHOUQlkZtyUA=", "s": "X90m0jfY/zHmSUg/5UIV99JhUee1sfmawCbhQUu/Q/8=", "to": "0xa48c6cc002b627954e1862620544e5613874676b", "v": 27} 
+2022-11-28 11:56:43.132776 res 1 transferAsset {"response":"succesfull transfer"} 
+2022-11-28 12:18:36.706193 req 2 balance {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 12:18:40.048572 res 2 balance {"response":"920"} 
+2022-11-28 12:18:47.366072 req 2 nonce {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 12:18:50.622119 res 2 nonce {"response":"18"} 
+2022-11-28 12:20:25.060646 req 2 transferAsset {"amount": 5, "from": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "nonce": 18, "pocket": "default", "r": "giBkWTf66FwgemHeaWyHdibrpVKB3xt6Bxi7/AYSOU8=", "s": "IyhC9OrBqWPH0n054q98fEP8y10ivJ9afW9aqkmrx5Y=", "to": "0xa48c6cc002b627954e1862620544e5613874676b", "v": 27} 
+2022-11-28 12:20:29.159561 res 2 transferAsset {"response":"succesfull transfer"} 
+2022-11-28 12:20:45.165845 req 3 connectivityTest {} 
+2022-11-28 12:20:48.336300 res 3 connectivityTest {"response":"ping done"} 
+2022-11-28 12:20:56.003395 req 3 balance {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 12:20:59.237189 res 3 balance {"response":"915"} 
+2022-11-28 12:21:30.013133 req 4 connectivityTest {} 
+2022-11-28 12:21:33.207101 res 4 connectivityTest {"response":"ping done"} 
+2022-11-28 12:21:35.397314 req 4 nonce {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 12:21:38.592769 res 4 nonce {"response":"19"} 
+2022-11-28 12:22:26.539935 req 5 transferAsset {"amount": 5, "from": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "nonce": 18, "pocket": "default", "r": "giBkWTf66FwgemHeaWyHdibrpVKB3xt6Bxi7/AYSOU8=", "s": "IyhC9OrBqWPH0n054q98fEP8y10ivJ9afW9aqkmrx5Y=", "to": "0xa48c6cc002b627954e1862620544e5613874676b", "v": 27} 
+2022-11-28 12:22:29.745914 res 5 transferAsset {"response":"org.hyperledger.fabric.gateway.ContractException: No valid proposal responses received. 1 peer error responses: error in simulation: transaction returned with failure: Error: Transaction nonce already seen"} 
+2022-11-28 12:23:45.277477 req 6 applyForGreenCbdc {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "lockedUserAmount": 5, "requestedAmount": 5, "verifierDocUri": "string"} 
+2022-11-28 12:23:48.726412 res 6 applyForGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-28 12:23:56.052213 req 6 unlockUnits {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "amount": 5} 
+2022-11-28 12:23:59.924949 res 6 unlockUnits {"response":"succesfull unlockUnit"} 
+2022-11-28 12:24:16.629567 req 7 approveGreenCbdc {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "deadlineInDays": 3, "totalPayout": 10} 
+2022-11-28 12:24:20.012401 res 7 approveGreenCbdc {"response":"successful green CBDC request"} 
+2022-11-28 12:30:52.813458 req 8 nonce {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 12:30:56.751332 res 8 nonce {"response":"19"} 
+2022-11-28 12:31:54.933201 req 8 transferAsset {"amount": 5, "from": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "nonce": 19, "pocket": "default", "r": "3Hdp48GtAMFLRy52iIStfo3D4GyidQUKiJMeifokMfE=", "s": "YaUIajAjrB1nqCzS71PNRhPRcsUUuG+fqggM6oqgCmc=", "to": "0xa48c6cc002b627954e1862620544e5613874676b", "v": 28} 
+2022-11-28 12:31:58.888234 res 8 transferAsset {"response":"succesfull transfer"} 
+2022-11-28 12:32:11.820023 req 9 nonce {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 12:32:15.029611 res 9 nonce {"response":"20"} 
+2022-11-28 12:33:17.942773 req 9 transferAsset {"amount": 5, "from": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "nonce": 20, "pocket": "default", "r": "8OP49rLjsrduf/BBPmGWzk06XXs4fjRtw/1lnphqv0Q=", "s": "PzhtbfEoWbUPV+OPBLRF7UlMMeEQ1MhhoHDGooJlhnk=", "to": "0xa48c6cc002b627954e1862620544e5613874676b", "v": 27} 
+2022-11-28 12:33:21.363938 res 9 transferAsset {"response":"succesfull transfer"} 
+2022-11-28 18:14:29.929168 req 10 balance {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 18:14:34.701425 res 10 balance {"response":"905"} 
+2022-11-28 18:14:38.340063 req 10 nonce {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 18:14:41.551218 res 10 nonce {"response":"21"} 
+2022-11-28 18:16:38.791401 req 10 transferAsset {"amount": 5, "from": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "nonce": 21, "pocket": "default", "r": "F+ZFLOoxeyYzwlglTHgDO9thxBszJ6gmaPLFgYrFX0U=", "s": "D8fujVQFmV7dm6gHQ64tKxnwZW/xf2OaO8vsYg+8N+A=", "to": "0xa48c6cc002b627954e1862620544e5613874676b", "v": 27} 
+2022-11-28 18:16:42.364192 res 10 transferAsset {"response":"succesfull transfer"} 
+2022-11-28 18:16:46.571760 req 10 balance {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"} 
+2022-11-28 18:16:49.774827 res 10 balance {"response":"900"} 
