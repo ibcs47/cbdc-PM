@@ -1,0 +1,10 @@
+2022-12-02 15:42:59.209935 req 11 balance {"address": ["0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"]} 
+2022-12-02 15:43:03.225788 res 11 balance {"response":"900"} 
+2022-12-02 15:43:03.226787 req 11 nonce {"address": ["0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"]} 
+2022-12-02 15:43:06.411896 res 11 nonce {"response":"22"} 
+2022-12-02 15:46:53.097753 req 11 balance {"address": ["0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"]} 
+2022-12-02 15:46:56.361688 res 11 balance {"response":"900"} 
+2022-12-02 15:46:56.362689 req 11 nonce {"address": ["0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b"]} 
+2022-12-02 15:46:59.546687 res 11 nonce {"response":"22"} 
+2022-12-02 15:46:59.547724 req 12 unlockUnits {"address": "0x1b18cf7b9bd974a9b2f2c4d5c0b1c2f69022dc2b", "amount": "5"} 
+2022-12-02 15:47:02.983760 res 12 unlockUnits {"response":"succesfull unlockUnit"} 
